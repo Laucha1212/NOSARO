@@ -16,40 +16,36 @@
 <body>
 
     <header class="header">
-
         <nav class="nav">
             <div class="logo-box">
-                <h1>NOSARO</h1>
+                <h1>CONNECTIA</h1>
             </div>
 
             <div class="menu">
-                <a href="#">Inicio</a><p>|</p><a href="#">Servicios</a><p>|</p><a href="#">Clientes</a><p>|</p><a href="#">Nosotros</a><p>|</p><a href="#">Contacto</a>
+                </p><a href="#ancla-servicios">Servicios</a><p>|</p><a href="#ancla-nosotros">Nosotros</a><p>|</p><a href="#ancla-clientes">Clientes</a><p>|</p><a href="#ancla-contacto">Contacto</a>
             </div>
         </nav>
 
-
+<!--ANCLA--><a name="ancla-servicios"></a><!--ANCLA-->
         <div class="banner" id=#inicio>
             <div class="EnQuePodemosAyudarte">
                 <h2>¿EN QUE PODEMOS AYUDARTE?</h2><hr>
-
-                <div class="contenido1">
-
+                <div class="atajos">
                     <div class="card" id="card-dw"> <!--IMG-->
                         <div class="filter-blur"> <!--BLUR-->
-                            <a href="#" class="button-card"><h4>DESARROLLO WEB</h4></a>
+                            <a href="#ancla-desarrolloweb" class="button-card"><h4>DESARROLLO WEB</h4></a>
                         </div>
                     </div>
 
                     <div class="card" id="card-marketing">
                         <div class="filter-blur">
-                            <a href="#" class="button-card"><h4>MARKETING</h4></a>
+                            <a href="#ancla-marketing" class="button-card"><h4>MARKETING</h4></a>
                         </div>
                     </div>
 
-
                     <div class="card" id="card-software">
                         <div class="filter-blur">
-                            <a href="#" class="button-card"><h4>SOFTWARE</h4></a>
+                            <a href="#ancla-software" class="button-card"><h4>SOFTWARE</h4></a>
                         </div>
                     </div>
 
@@ -62,57 +58,74 @@
 
     </header>
 
-    <main class="main">
 
+<main class="main">
+<!--ANCLA--><a name="ancla-nosotros"></a><!--ANCLA-->
         <div class="skew-arriba" id="skew-main"></div>
-
         <div class="container">
 
-                                    <!--SECTION 2-->
+                                    <!--SECTION 1-->
             <section class="QuienesSomos">
                 <h2>¿QUIENES SOMOS?</h2>
+                <div class="contenido1">
+                    <p>Somos una agencia de tecnología digital, especializada en desarrollar estrategias, identificar Insights y analizar datos. <br> <br>
+                        Somos especialistas en Marketing digital, SEO, SEM, Redes sociales, Social Media, Marketing de contenidos, Email Marketing, desarrollo de sistemas web, desktop, mobile. <br> <br>
+                        Potenciamos tu marca y anticipamos las necesidades de la audiencia, optimizando la performance de inversiones y recursos. <br> <br>
+                        Nos especializamos en el desarrollo de Líderes de Transformación, Agentes de Cambio, Equipos de Alto Impacto y Organizaciones Conscientes. <br> <br>
+                    </p>
+
+                    <button type="button" onclick="verMas();" id="verMas">VER MÁS >></button>
+<!--ANCLA--><a name="ancla-desarrolloweb"></a><!--ANCLA-->
+                    <div id="mas">
+                        <p>
+                            ati dolorem facilis, vitae inventore at? Vel molestias, cumque officia facilis dolorum magni dolore ad adipisci culpa reprehenderit omnis laudantium dolor, iusto et ipsam quis cum voluptas voluptatum similique?
+                            Quidem sit beatae animi fugiat omnis iusto, adipisci commodi laborum ut, ratione nam dicta quia dolores quo ipsam repellat accusamus culpa ullam at dolor sunt, expedita unde architecto aliquid! Amet?
+                            Inventore reiciendis, iure maxime distinctio vitae aliquam corporis debitis similique architecto fuga nostrum harum hic! Id, rem animi. Temporibus distinctio aperiam vero ut. Reiciendis, minima? Commodi sunt fuga qui ex.
+                            Voluptate ut earum architecto voluptates commodi in error quisquam rerum id sint, molestias ratione nihil explicabo eligendi assumenda incidunt eaque laborum impedit? Accusantium accusamus culpa dolores? Incidunt obcaecati unde porro?
+                        </p>
+                        <button type="button" onclick="verMenos();" id="verMenos">&lt;&lt; VER MENOS</button>
+                    </div>
+                </div>
+            </section>
+
+                                    <!--SECTION 2-->
+            <section class="DesarrolloWeb">
+                <h2>DESARROLLO WEB</h2>
                 <div class="contenido2">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit inventore ipsa ex ea earum. Totam temporibus, vitae corrupti cum suscipit quas praesentium quibusdam error possimus. Laborum itaque neque harum quia.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, consectetur, quam nisi magnam eligendi laborum, totam officia sequi facere fugiat obcaecati molestias enim cupiditate facilis.</p>
+                    <!--carousel imagenes de proyectos-->
+<!--ANCLA--><a name="ancla-marketing"></a><!--ANCLA-->
                 </div>
             </section>
 
                                     <!--SECTION 3-->
-            <section class="DesarrolloWeb">
-                <h2>DESARROLLO WEB</h2>
+            <section class="MarketingWeb">
+                <h2>MARKETING WEB</h2>
                 <div class="contenido3">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, consectetur, quam nisi magnam eligendi laborum, totam officia sequi facere fugiat obcaecati molestias enim cupiditate facilis.</p>
-                    <!--carousel imagenes de proyectos-->
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non pariatur in atque deleniti ducimus, ut delectus recusandae expedita quia aliquid facere a tenetur voluptates quae quidem numquam quis tempora neque?</p>
+<!--ANCLA--><a name="ancla-software"></a><!--ANCLA-->
                 </div>
             </section>
 
                                     <!--SECTION 4-->
-            <section class="MarketingWeb">
-                <h2>MARKETING WEB</h2>
+            <section class="Software">
+                <h2>DESARROLLO DE SOFTWARE</h2>
                 <div class="contenido4">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non pariatur in atque deleniti ducimus, ut delectus recusandae expedita quia aliquid facere a tenetur voluptates quae quidem numquam quis tempora neque?</p>
+<!--ANCLA--><a name="ancla-contacto"></a><!--ANCLA-->
                 </div>
             </section>
 
                                     <!--SECTION 5-->
-            <section class="Software">
-                <h2>DESARROLLO DE SOFTWARE</h2>
-                <div class="contenido5">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non pariatur in atque deleniti ducimus, ut delectus recusandae expedita quia aliquid facere a tenetur voluptates quae quidem numquam quis tempora neque?</p>
-                </div>
-            </section>
-
-                                    <!--SECTION 6-->
             <section class="contacto">
                 <h2>CONTACTO</h2>
-                <div class="contenido6">
-
+                <div class="contenido5">
                 </div>
             </section>
         </div>
+</main>
 
-    </main>
-
-    <footer class=""></footer>
+<footer class=""></footer>
 
 <!--SCRYPT-->
 <script src="scrypt.js"></script>
