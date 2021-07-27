@@ -113,11 +113,13 @@ body{
 
 .banner{
     background: rgb(253, 253, 253);
-    margin-top: 75px;
+    padding-top: 70px;
 }  
 
 /**----------EN QUE PODEMOS AYUDARTE----------**/
-
+.EnQuePodemosAyudarte{
+    padding-top:px;
+}
 .banner .EnQuePodemosAyudarte h2{
     display: block;
     text-align: center;
@@ -257,4 +259,19 @@ section{
     margin:auto;
     text-align: justify;
     font-size: 18px;
+}
+
+/** ---------FOOTER-------**/
+
+footer{
+    display: block;
+    background-color: #FDFDFD;
+    padding: 13px;
+    text-align: center;
+    border-top: 3px solid var(--verde);
+}
+.cont-footer{
+    display: inline-block;
+    margin: auto auto;
+    font-size: 20px;
 }

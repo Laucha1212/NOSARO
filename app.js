@@ -127,3 +127,19 @@ function verMenos(){
   document.getElementById('mas').style.display = 'none';
   document.getElementById('verMas').style.display = 'block';
   }
+
+  /*MENU DESLIZANTE*/
+/*let containerMenu = document.querySelector ('.nav');
+//EFECTO SCROLL - GO TOP
+let prevScrollpos = window.pageYOffset;
+window.onscroll = () => {
+  let currentscrollpos = window.pageYOffset;
+  //MOSTRAR Y OCULTAR MENU
+  if (prevScrollpos > currentscrollpos) {
+      containerMenu.style.top = "0";
+      containerMenu.style.transition = "0.5s";
+  } else{
+      containerMenu.style.top = "-100px";
+      containerMenu.style.transition = "0.5s";
+  }
+  prevScrollpos = currentscrollpos;}*/
