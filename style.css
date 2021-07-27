@@ -21,7 +21,6 @@ body{
 .contenedor {
     position: relative;
     z-index: 99;
-    opacity: .85;
 }
 
 .background{
